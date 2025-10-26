@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware  # ← NUEVO
 from pydantic import BaseModel
 from dotenv import load_dotenv
 import os
@@ -14,10 +14,10 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Inicializar FastAPI
 app = FastAPI()
 
-# Permitir acceso desde frontend
+# ✅ CONFIGURACIÓN CORS - AGREGAR ESTO
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Permitir todos los orígenes
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
