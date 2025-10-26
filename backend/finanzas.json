@@ -1,0 +1,208 @@
+{
+  "ultimo_id": 32,
+  "movimientos": [
+    {
+      "id": 15,
+      "tipo": "Gasto",
+      "categoria": "Pago Mensual Gym León",
+      "monto": 400.0,
+      "fecha": "2025-10-23"
+    },
+    {
+      "id": 14,
+      "tipo": "Gasto",
+      "categoria": "Plomero",
+      "monto": 100.0,
+      "fecha": "2025-10-22"
+    },
+    {
+      "id": 13,
+      "tipo": "Gasto",
+      "categoria": "Gym en Valle",
+      "monto": 40.0,
+      "fecha": "2025-10-22"
+    },
+    {
+      "id": 12,
+      "tipo": "Gasto",
+      "categoria": "Comida",
+      "monto": 50.0,
+      "fecha": "2025-10-21"
+    },
+    {
+      "id": 11,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi al gym",
+      "monto": 76.0,
+      "fecha": "2025-10-21"
+    },
+    {
+      "id": 10,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi al gym",
+      "monto": 26.0,
+      "fecha": "2025-10-21"
+    },
+    {
+      "id": 9,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi a casa León",
+      "monto": 37.0,
+      "fecha": "2025-10-21"
+    },
+    {
+      "id": 8,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi al gym",
+      "monto": 60.0,
+      "fecha": "2025-10-20"
+    },
+    {
+      "id": 7,
+      "tipo": "Gasto",
+      "categoria": "Comida chatarra",
+      "monto": 70.0,
+      "fecha": "2025-10-20"
+    },
+    {
+      "id": 6,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi a casa León",
+      "monto": 81.0,
+      "fecha": "2025-10-20"
+    },
+    {
+      "id": 5,
+      "tipo": "Gasto",
+      "categoria": "Viaje Blablacar",
+      "monto": 100.0,
+      "fecha": "2025-10-19"
+    },
+    {
+      "id": 4,
+      "tipo": "Ingreso",
+      "categoria": "Monto inicial",
+      "monto": 1000.0,
+      "fecha": "2025-10-19"
+    },
+    {
+      "id": 32,
+      "tipo": "Gasto",
+      "categoria": "Hamburguesas propina",
+      "monto": 15.0,
+      "fecha": "2025-10-25"
+    },
+    {
+      "id": 31,
+      "tipo": "Gasto",
+      "categoria": "Hamburguesas",
+      "monto": 115.0,
+      "fecha": "2025-10-25"
+    },
+    {
+      "id": 30,
+      "tipo": "Ingreso",
+      "categoria": "Obsequio mamá",
+      "monto": 1000.0,
+      "fecha": "2025-10-25"
+    },
+    {
+      "id": 29,
+      "tipo": "Ingreso",
+      "categoria": "Préstamo mamá",
+      "monto": 500.0,
+      "fecha": "2025-10-25"
+    },
+    {
+      "id": 28,
+      "tipo": "Gasto",
+      "categoria": "café Aldo",
+      "monto": 170.0,
+      "fecha": "2025-10-25"
+    },
+    {
+      "id": 27,
+      "tipo": "Gasto",
+      "categoria": "viaje blablacar",
+      "monto": 105.0,
+      "fecha": "2025-10-25"
+    },
+    {
+      "id": 26,
+      "tipo": "Gasto",
+      "categoria": "Datos extra Telcel",
+      "monto": 25.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 25,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi a centroMax",
+      "monto": 54.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 24,
+      "tipo": "Gasto",
+      "categoria": "comida chatarra",
+      "monto": 25.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 23,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi al gym",
+      "monto": 61.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 22,
+      "tipo": "Gasto",
+      "categoria": "Tienda",
+      "monto": 35.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 21,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi a casa",
+      "monto": 52.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 20,
+      "tipo": "Gasto",
+      "categoria": "Datos extra Telcel",
+      "monto": 25.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 19,
+      "tipo": "Gasto",
+      "categoria": "pago Telcel",
+      "monto": 699.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 18,
+      "tipo": "Ingreso",
+      "categoria": "Sueldo",
+      "monto": 4950.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 17,
+      "tipo": "Ingreso",
+      "categoria": "Carlo préstamo",
+      "monto": 500.0,
+      "fecha": "2025-10-24"
+    },
+    {
+      "id": 16,
+      "tipo": "Ingreso",
+      "categoria": "mamá préstamo",
+      "monto": 170.0,
+      "fecha": "2025-10-24"
+    }
+  ]
+}
