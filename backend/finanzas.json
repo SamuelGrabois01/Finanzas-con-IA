@@ -1,5 +1,5 @@
 {
-  "ultimo_id": 32,
+  "ultimo_id": 34,
   "movimientos": [
     {
       "id": 15,
@@ -203,6 +203,20 @@
       "categoria": "mamá préstamo",
       "monto": 170.0,
       "fecha": "2025-10-24"
+    },
+    {
+      "id": 34,
+      "tipo": "Gasto",
+      "categoria": "tarjeta de crédito",
+      "monto": 3000.0,
+      "fecha": "2025-10-26"
+    },
+    {
+      "id": 33,
+      "tipo": "Gasto",
+      "categoria": "Renta parte 1",
+      "monto": 2000.0,
+      "fecha": "2025-10-26"
     }
   ]
 }
