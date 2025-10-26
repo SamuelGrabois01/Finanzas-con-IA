@@ -73,36 +73,94 @@ def main():
                 balance_data = balance_response.json()
                 mostrar_metricas_principales(balance_data)
                 
-                # Obtener análisis por categorías
+                # Obtener análisis por categorías - VERSIÓN DEBUG
+                st.info("🔄 Solicitando análisis de categorías...")
+                
                 categorias_response = requests.post(
                     f"{BACKEND_URL}/analizar_categorias",
                     json={
                         "fecha_inicio": str(fecha_inicio),
-                        "fecha_fin": str(fecha_fin)
-                    }
+                        "fecha_fin": str(fecha_fin),
+                        "prompt": ""
+                    },
+                    timeout=45
                 )
+                
+                # DEBUG: Mostrar información de la respuesta
+                st.write(f"🔍 Status Code: {categorias_response.status_code}")
                 
                 if categorias_response.status_code == 200:
                     categorias_data = categorias_response.json()
+                    st.success("✅ Análisis de categorías recibido")
                     mostrar_graficas(categorias_data)
+                elif categorias_response.status_code == 500:
+                    st.error("❌ Error interno del servidor")
+                    try:
+                        error_detail = categorias_response.json()
+                        st.write(f"Detalle del error: {error_detail}")
+                    except:
+                        st.write(f"Respuesta del servidor: {categorias_response.text}")
+                    mostrar_datos_ejemplo()
                 else:
-                    st.warning("⚠️ Las gráficas no están disponibles temporalmente")
-                    # Mostrar datos de ejemplo temporalmente
+                    st.error(f"❌ Error HTTP: {categorias_response.status_code}")
+                    st.write(f"Respuesta: {categorias_response.text}")
                     mostrar_datos_ejemplo()
                     
             else:
-                st.error("Error al cargar datos básicos del balance")
+                st.error(f"Error al cargar balance: {balance_response.status_code}")
                 
     except requests.exceptions.ConnectionError:
-        st.error("⚠️ No se puede conectar al backend. Verifica que esté ejecutándose.")
+        st.error("⚠️ No se puede conectar al backend.")
     except requests.exceptions.Timeout:
-        st.warning("⏰ El análisis de categorías está tardando más de lo esperado. Recarga la página.")
+        st.error("⏰ Timeout: El análisis está tardando demasiado")
         mostrar_datos_ejemplo()
     except Exception as e:
         st.error(f"Error inesperado: {str(e)}")
         mostrar_datos_ejemplo()
-
+        
 def mostrar_datos_ejemplo():
+    """Mostrar datos de ejemplo cuando falla la conexión"""
+    st.warning("📊 Mostrando datos de ejemplo mientras solucionamos el análisis automático")
+    
+    # Usar los datos reales del balance para el ejemplo
+    try:
+        balance_response = requests.get(f"{BACKEND_URL}/balance", timeout=10)
+        if balance_response.status_code == 200:
+            balance_data = balance_response.json()
+            
+            # Crear datos de ejemplo basados en el balance real
+            datos_ejemplo = {
+                "ingresos": {
+                    "Sueldo": balance_data['ingresos'] * 0.7,
+                    "Freelance": balance_data['ingresos'] * 0.2,
+                    "Otros": balance_data['ingresos'] * 0.1
+                },
+                "gastos": {
+                    "Comida": balance_data['gastos'] * 0.4,
+                    "Transporte": balance_data['gastos'] * 0.2,
+                    "Entretenimiento": balance_data['gastos'] * 0.15,
+                    "Hogar": balance_data['gastos'] * 0.15,
+                    "Otros": balance_data['gastos'] * 0.1
+                },
+                "totales": {
+                    "total_ingresos": balance_data['ingresos'],
+                    "total_gastos": balance_data['gastos'],
+                    "balance": balance_data['balance']
+                }
+            }
+            mostrar_graficas(datos_ejemplo)
+            return
+    
+    except:
+        pass
+    
+    # Datos de ejemplo genéricos si no puede obtener el balance
+    datos_ejemplo = {
+        "ingresos": {"Sueldo": 2500, "Freelance": 500, "Otros": 100},
+        "gastos": {"Comida": 300, "Transporte": 150, "Entretenimiento": 100, "Otros": 200},
+        "totales": {"total_ingresos": 3100, "total_gastos": 750, "balance": 2350}
+    }
+    mostrar_graficas(datos_ejemplo)
     """Mostrar datos de ejemplo cuando el análisis de IA falla"""
     st.info("💡 Mientras tanto, aquí tienes un resumen básico:")
     
