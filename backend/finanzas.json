@@ -1,5 +1,5 @@
 {
-  "ultimo_id": 34,
+  "ultimo_id": 37,
   "movimientos": [
     {
       "id": 15,
@@ -216,6 +216,27 @@
       "tipo": "Gasto",
       "categoria": "Renta parte 1",
       "monto": 2000.0,
+      "fecha": "2025-10-26"
+    },
+    {
+      "id": 37,
+      "tipo": "Gasto",
+      "categoria": "viaje blablacar a León",
+      "monto": 160.0,
+      "fecha": "2025-10-26"
+    },
+    {
+      "id": 36,
+      "tipo": "Ingreso",
+      "categoria": "Venta asado",
+      "monto": 1000.0,
+      "fecha": "2025-10-26"
+    },
+    {
+      "id": 35,
+      "tipo": "Gasto",
+      "categoria": "Pago a Armando",
+      "monto": 500.0,
       "fecha": "2025-10-26"
     }
   ]
