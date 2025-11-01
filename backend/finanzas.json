@@ -1,5 +1,5 @@
 {
-  "ultimo_id": 37,
+  "ultimo_id": 59,
   "movimientos": [
     {
       "id": 15,
@@ -238,6 +238,160 @@
       "categoria": "Pago a Armando",
       "monto": 500.0,
       "fecha": "2025-10-26"
+    },
+    {
+      "id": 59,
+      "tipo": "Gasto",
+      "categoria": "tienda Oxxo",
+      "monto": 70.0,
+      "fecha": "2025-11-01"
+    },
+    {
+      "id": 58,
+      "tipo": "Gasto",
+      "categoria": "Viaje Blablacar",
+      "monto": 120.0,
+      "fecha": "2025-10-31"
+    },
+    {
+      "id": 57,
+      "tipo": "Gasto",
+      "categoria": "comida china",
+      "monto": 185.0,
+      "fecha": "2025-10-31"
+    },
+    {
+      "id": 56,
+      "tipo": "Gasto",
+      "categoria": "sándwich starbucks",
+      "monto": 100.0,
+      "fecha": "2025-10-31"
+    },
+    {
+      "id": 55,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi",
+      "monto": 52.0,
+      "fecha": "2025-10-31"
+    },
+    {
+      "id": 54,
+      "tipo": "Ingreso",
+      "categoria": "Sueldo",
+      "monto": 4930.0,
+      "fecha": "2025-10-31"
+    },
+    {
+      "id": 53,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi al Gym",
+      "monto": 38.0,
+      "fecha": "2025-10-31"
+    },
+    {
+      "id": 52,
+      "tipo": "Gasto",
+      "categoria": "papelería",
+      "monto": 59.0,
+      "fecha": "2025-10-31"
+    },
+    {
+      "id": 51,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 36.0,
+      "fecha": "2025-10-30"
+    },
+    {
+      "id": 50,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 31.0,
+      "fecha": "2025-10-30"
+    },
+    {
+      "id": 49,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 48.0,
+      "fecha": "2025-10-29"
+    },
+    {
+      "id": 48,
+      "tipo": "Gasto",
+      "categoria": "Papelería",
+      "monto": 190.0,
+      "fecha": "2025-10-29"
+    },
+    {
+      "id": 47,
+      "tipo": "Gasto",
+      "categoria": "Despensa",
+      "monto": 240.0,
+      "fecha": "2025-10-29"
+    },
+    {
+      "id": 46,
+      "tipo": "Gasto",
+      "categoria": "compra en tienda",
+      "monto": 41.0,
+      "fecha": "2025-10-29"
+    },
+    {
+      "id": 45,
+      "tipo": "Gasto",
+      "categoria": "compra en tiendita",
+      "monto": 52.0,
+      "fecha": "2025-10-29"
+    },
+    {
+      "id": 44,
+      "tipo": "Gasto",
+      "categoria": "comida chatarra",
+      "monto": 14.0,
+      "fecha": "2025-10-28"
+    },
+    {
+      "id": 43,
+      "tipo": "Ingreso",
+      "categoria": "pago recibido de Choco",
+      "monto": 100.0,
+      "fecha": "2025-10-28"
+    },
+    {
+      "id": 42,
+      "tipo": "Gasto",
+      "categoria": "Tienda",
+      "monto": 18.0,
+      "fecha": "2025-10-28"
+    },
+    {
+      "id": 41,
+      "tipo": "Gasto",
+      "categoria": "Gasto Didi",
+      "monto": 50.0,
+      "fecha": "2025-10-28"
+    },
+    {
+      "id": 40,
+      "tipo": "Gasto",
+      "categoria": "Telcel datos extra",
+      "monto": 15.0,
+      "fecha": "2025-10-27"
+    },
+    {
+      "id": 39,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi a Altacia",
+      "monto": 40.0,
+      "fecha": "2025-10-27"
+    },
+    {
+      "id": 38,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi a casa León",
+      "monto": 86.0,
+      "fecha": "2025-10-27"
     }
   ]
 }
