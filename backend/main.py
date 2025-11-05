@@ -128,6 +128,7 @@ con esta estructura exacta, sin explicaciones:
     "Monto inicial": 0,
     "Regalos": 0,
     "Prestamos recibidos": 0,
+    "Ventas": 0,
     "Otros": 0
   }},
   "gastos": {{
@@ -137,6 +138,7 @@ con esta estructura exacta, sin explicaciones:
     "Entretenimiento": 0,
     "Gimnasio": 0,
     "Hogar": 0,
+    "Tarjeta de Crédito": 0,
     "Otros": 0
   }},
   "totales": {{
