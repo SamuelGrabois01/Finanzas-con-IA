@@ -1,5 +1,5 @@
 {
-  "ultimo_id": 59,
+  "ultimo_id": 70,
   "movimientos": [
     {
       "id": 15,
@@ -392,6 +392,83 @@
       "categoria": "Viaje Didi a casa León",
       "monto": 86.0,
       "fecha": "2025-10-27"
+    },
+    {
+      "id": 70,
+      "tipo": "Gasto",
+      "categoria": "Tiendita",
+      "monto": 77.0,
+      "fecha": "2025-11-05"
+    },
+    {
+      "id": 69,
+      "tipo": "Gasto",
+      "categoria": "Datos extra Telcel",
+      "monto": 25.0,
+      "fecha": "2025-11-04"
+    },
+    {
+      "id": 68,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi",
+      "monto": 37.0,
+      "fecha": "2025-11-04"
+    },
+    {
+      "id": 67,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 70.0,
+      "fecha": "2025-11-04"
+    },
+    {
+      "id": 66,
+      "tipo": "Gasto",
+      "categoria": "Datos extra Internet",
+      "monto": 25.0,
+      "fecha": "2025-11-03"
+    },
+    {
+      "id": 65,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi",
+      "monto": 65.0,
+      "fecha": "2025-11-03"
+    },
+    {
+      "id": 64,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi",
+      "monto": 82.0,
+      "fecha": "2025-11-03"
+    },
+    {
+      "id": 63,
+      "tipo": "Gasto",
+      "categoria": "viaje blablacar",
+      "monto": 150.0,
+      "fecha": "2025-11-03"
+    },
+    {
+      "id": 62,
+      "tipo": "Gasto",
+      "categoria": "Renta parte 2",
+      "monto": 800.0,
+      "fecha": "2025-11-03"
+    },
+    {
+      "id": 61,
+      "tipo": "Gasto",
+      "categoria": "Cena",
+      "monto": 150.0,
+      "fecha": "2025-11-02"
+    },
+    {
+      "id": 60,
+      "tipo": "Ingreso",
+      "categoria": "Obsequio mamá",
+      "monto": 1000.0,
+      "fecha": "2025-11-01"
     }
   ]
 }
