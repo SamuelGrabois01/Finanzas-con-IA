@@ -1,5 +1,5 @@
 {
-  "ultimo_id": 70,
+  "ultimo_id": 75,
   "movimientos": [
     {
       "id": 15,
@@ -469,6 +469,41 @@
       "categoria": "Obsequio mamá",
       "monto": 1000.0,
       "fecha": "2025-11-01"
+    },
+    {
+      "id": 72,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 45.0,
+      "fecha": "2025-11-05"
+    },
+    {
+      "id": 71,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi",
+      "monto": 39.0,
+      "fecha": "2025-11-05"
+    },
+    {
+      "id": 73,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 1.0,
+      "fecha": "2025-11-05"
+    },
+    {
+      "id": 75,
+      "tipo": "Ingreso",
+      "categoria": "Sueldo",
+      "monto": 4930.0,
+      "fecha": "2025-11-06"
+    },
+    {
+      "id": 74,
+      "tipo": "Gasto",
+      "categoria": "Tiendita",
+      "monto": 95.0,
+      "fecha": "2025-11-05"
     }
   ]
 }
