@@ -120,7 +120,7 @@ async def analizar_categorias(request: AnalisisRequest):
 
         prompt = f"""
 Eres un analista financiero. Clasifica los movimientos en categorías y devuelve un JSON válido
-con esta estructura exacta, sin explicaciones:
+con esta estructura exacta, sin explicaciones: (En gastos Tiendita o parecidos van en comida)
 
 {{
   "ingresos": {{

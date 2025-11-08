@@ -1,5 +1,5 @@
 {
-  "ultimo_id": 75,
+  "ultimo_id": 84,
   "movimientos": [
     {
       "id": 15,
@@ -504,6 +504,69 @@
       "categoria": "Tiendita",
       "monto": 95.0,
       "fecha": "2025-11-05"
+    },
+    {
+      "id": 84,
+      "tipo": "Gasto",
+      "categoria": "tienda Oxxo",
+      "monto": 53.0,
+      "fecha": "2025-11-08"
+    },
+    {
+      "id": 83,
+      "tipo": "Gasto",
+      "categoria": "Tarjeta crédito",
+      "monto": 6300.0,
+      "fecha": "2025-11-08"
+    },
+    {
+      "id": 82,
+      "tipo": "Gasto",
+      "categoria": "Viaje Blablacar",
+      "monto": 120.0,
+      "fecha": "2025-11-07"
+    },
+    {
+      "id": 81,
+      "tipo": "Gasto",
+      "categoria": "papelería",
+      "monto": 55.0,
+      "fecha": "2025-11-07"
+    },
+    {
+      "id": 80,
+      "tipo": "Gasto",
+      "categoria": "comida",
+      "monto": 33.0,
+      "fecha": "2025-11-07"
+    },
+    {
+      "id": 79,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi",
+      "monto": 40.0,
+      "fecha": "2025-11-07"
+    },
+    {
+      "id": 78,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 40.0,
+      "fecha": "2025-11-07"
+    },
+    {
+      "id": 77,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi",
+      "monto": 39.0,
+      "fecha": "2025-11-07"
+    },
+    {
+      "id": 76,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 80.0,
+      "fecha": "2025-11-07"
     }
   ]
 }
