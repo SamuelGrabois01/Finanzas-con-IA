@@ -1,5 +1,5 @@
 {
-  "ultimo_id": 84,
+  "ultimo_id": 87,
   "movimientos": [
     {
       "id": 15,
@@ -567,6 +567,27 @@
       "categoria": "tiendita",
       "monto": 80.0,
       "fecha": "2025-11-07"
+    },
+    {
+      "id": 87,
+      "tipo": "Ingreso",
+      "categoria": "Venta de pays",
+      "monto": 300.0,
+      "fecha": "2025-11-09"
+    },
+    {
+      "id": 86,
+      "tipo": "Gasto",
+      "categoria": "pago Armando",
+      "monto": 500.0,
+      "fecha": "2025-11-08"
+    },
+    {
+      "id": 85,
+      "tipo": "Gasto",
+      "categoria": "Farmacia",
+      "monto": 420.0,
+      "fecha": "2025-11-08"
     }
   ]
 }
