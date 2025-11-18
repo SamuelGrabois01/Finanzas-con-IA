@@ -1,5 +1,5 @@
 {
-  "ultimo_id": 87,
+  "ultimo_id": 118,
   "movimientos": [
     {
       "id": 15,
@@ -588,6 +588,223 @@
       "categoria": "Farmacia",
       "monto": 420.0,
       "fecha": "2025-11-08"
+    },
+    {
+      "id": 118,
+      "tipo": "Gasto",
+      "categoria": "gym y prote",
+      "monto": 200.0,
+      "fecha": "2025-11-15"
+    },
+    {
+      "id": 117,
+      "tipo": "Gasto",
+      "categoria": "viaje blablacar",
+      "monto": 130.0,
+      "fecha": "2025-11-15"
+    },
+    {
+      "id": 116,
+      "tipo": "Gasto",
+      "categoria": "Starbucks tienda",
+      "monto": 100.0,
+      "fecha": "2025-11-15"
+    },
+    {
+      "id": 115,
+      "tipo": "Gasto",
+      "categoria": "Starbucks tienda",
+      "monto": 57.0,
+      "fecha": "2025-11-15"
+    },
+    {
+      "id": 114,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi",
+      "monto": 95.0,
+      "fecha": "2025-11-15"
+    },
+    {
+      "id": 113,
+      "tipo": "Gasto",
+      "categoria": "hamburguesas",
+      "monto": 240.0,
+      "fecha": "2025-11-15"
+    },
+    {
+      "id": 112,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi",
+      "monto": 120.0,
+      "fecha": "2025-11-14"
+    },
+    {
+      "id": 111,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 77.0,
+      "fecha": "2025-11-14"
+    },
+    {
+      "id": 110,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi",
+      "monto": 100.0,
+      "fecha": "2025-11-14"
+    },
+    {
+      "id": 109,
+      "tipo": "Gasto",
+      "categoria": "viaje Didi",
+      "monto": 57.0,
+      "fecha": "2025-11-14"
+    },
+    {
+      "id": 108,
+      "tipo": "Ingreso",
+      "categoria": "sueldo",
+      "monto": 4930.0,
+      "fecha": "2025-11-14"
+    },
+    {
+      "id": 107,
+      "tipo": "Gasto",
+      "categoria": "viaje blabla",
+      "monto": 160.0,
+      "fecha": "2025-11-14"
+    },
+    {
+      "id": 106,
+      "tipo": "Ingreso",
+      "categoria": "préstamo mamá",
+      "monto": 240.0,
+      "fecha": "2025-11-14"
+    },
+    {
+      "id": 105,
+      "tipo": "Gasto",
+      "categoria": "gym",
+      "monto": 50.0,
+      "fecha": "2025-11-14"
+    },
+    {
+      "id": 104,
+      "tipo": "Gasto",
+      "categoria": "rodillera para lesión",
+      "monto": 159.0,
+      "fecha": "2025-11-13"
+    },
+    {
+      "id": 103,
+      "tipo": "Gasto",
+      "categoria": "peluquería",
+      "monto": 149.0,
+      "fecha": "2025-11-13"
+    },
+    {
+      "id": 102,
+      "tipo": "Gasto",
+      "categoria": "gym",
+      "monto": 50.0,
+      "fecha": "2025-11-12"
+    },
+    {
+      "id": 101,
+      "tipo": "Gasto",
+      "categoria": "membresía Crunchyroll",
+      "monto": 119.0,
+      "fecha": "2025-11-12"
+    },
+    {
+      "id": 100,
+      "tipo": "Gasto",
+      "categoria": "Ropa tennis",
+      "monto": 850.0,
+      "fecha": "2025-11-12"
+    },
+    {
+      "id": 99,
+      "tipo": "Gasto",
+      "categoria": "Tiendita",
+      "monto": 48.0,
+      "fecha": "2025-11-11"
+    },
+    {
+      "id": 98,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi",
+      "monto": 41.0,
+      "fecha": "2025-11-11"
+    },
+    {
+      "id": 97,
+      "tipo": "Gasto",
+      "categoria": "Tiendita",
+      "monto": 47.0,
+      "fecha": "2025-11-11"
+    },
+    {
+      "id": 96,
+      "tipo": "Gasto",
+      "categoria": "Comida",
+      "monto": 212.0,
+      "fecha": "2025-11-11"
+    },
+    {
+      "id": 95,
+      "tipo": "Gasto",
+      "categoria": "tienda Oxxo",
+      "monto": 120.0,
+      "fecha": "2025-11-11"
+    },
+    {
+      "id": 94,
+      "tipo": "Gasto",
+      "categoria": "Telcel datos extra",
+      "monto": 25.0,
+      "fecha": "2025-11-10"
+    },
+    {
+      "id": 93,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi",
+      "monto": 68.0,
+      "fecha": "2025-11-10"
+    },
+    {
+      "id": 92,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 18.0,
+      "fecha": "2025-11-10"
+    },
+    {
+      "id": 91,
+      "tipo": "Gasto",
+      "categoria": "Viaje Didi",
+      "monto": 90.0,
+      "fecha": "2025-11-10"
+    },
+    {
+      "id": 90,
+      "tipo": "Gasto",
+      "categoria": "viaje blabla",
+      "monto": 100.0,
+      "fecha": "2025-11-10"
+    },
+    {
+      "id": 89,
+      "tipo": "Gasto",
+      "categoria": "tiendita",
+      "monto": 70.0,
+      "fecha": "2025-11-09"
+    },
+    {
+      "id": 88,
+      "tipo": "Gasto",
+      "categoria": "gym",
+      "monto": 40.0,
+      "fecha": "2025-11-09"
     }
   ]
 }
