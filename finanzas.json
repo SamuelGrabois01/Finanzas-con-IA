@@ -1,0 +1,13 @@
+{
+  "ultimo_id": 1,
+  "movimientos": [
+    {
+      "id": 1,
+      "tipo": "Ingreso",
+      "categoria": "Dinero Inicial 2026",
+      "monto": 29704.0,
+      "fecha": "2026-01-18"
+    }
+   
+  ]
+}
